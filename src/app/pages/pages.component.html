@@ -1,0 +1,33 @@
+<div id="main-wrapper">
+  <!--Header-->
+  <app-header></app-header>
+  <!--End Header-->
+
+  <!--Sidebar-->
+  <app-sidebar></app-sidebar>
+  <!-- End Sidebar-->
+
+  <div class="page-wrapper">
+    <div class="container-fluid">
+      <!--Breadcrumbs-->
+      <app-breadcrumbs></app-breadcrumbs>
+      <!--End Breadcrumbs-->
+
+      <!--Route System-->
+      <div class="row">
+        <div class="col-12">
+          <div class="card">
+            <div class="card-body">
+              <router-outlet></router-outlet>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--End Route System-->
+
+    </div>
+    <!--Footer-->
+    <app-footer></app-footer>
+    <!--End Footer-->
+  </div>
+</div>
