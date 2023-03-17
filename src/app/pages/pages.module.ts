@@ -12,6 +12,8 @@ import { PagesComponent } from './pages.component';
 import { ProgressComponent } from './progress/progress.component';
 import { SharedModule } from '../shared/shared.module';
 import { AccountSettingsComponent } from './account-settings/account-settings.component';
+import { PromisesComponent } from './promises/promises.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 
 
@@ -24,6 +26,8 @@ import { AccountSettingsComponent } from './account-settings/account-settings.co
     Graph1Component,
     PagesComponent,
     ProgressComponent,
+    PromisesComponent,
+    RxjsComponent,
   ],
   imports: [
     CommonModule,
