@@ -14,16 +14,16 @@ const routes: Routes = [
         path: 'dashboard',
         component: PagesComponent,
         children: [
-            { path: '', component: DashboardComponent },
-            { path: 'graph1', component: Graph1Component },
-            { path: 'progress', component: ProgressComponent },
-            { path: 'promises', component: PromisesComponent },
-            { path: 'rxjs', component: RxjsComponent },
-            { path: 'account-settings', component: AccountSettingsComponent },
+            { path: '', component: DashboardComponent, data: { title: 'Dashboard' } },
+            { path: 'graph1', component: Graph1Component, data: { title: 'Graph' } },
+            { path: 'progress', component: ProgressComponent, data: { title: 'Progress' } },
+            { path: 'promises', component: PromisesComponent, data: { title: 'Promises' } },
+            { path: 'rxjs', component: RxjsComponent, data: { title: 'RxJs' } },
+            { path: 'account-settings', component: AccountSettingsComponent, data: { title: 'Account-Settings' } },
         ]
     },
 
-    //{ path: 'path/:routeParam', component: MyComponent },
+    //{ path: 'path/:routeParam', component: MyComponent },Graficos
     //{ path: 'staticPath', component: ... },
     //{ path: '**', component: ... },
     //{ path: 'oldPath', redirectTo: '/staticPath' },
